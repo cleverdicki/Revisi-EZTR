@@ -104,7 +104,7 @@ void pop(){
 ```
 
 #### Main Program
-Bagian ini merupakan main program dimana program akan dijalankan. terdapat pendeklarasian niali variabel top=-1 dan pendeklarasian variabel untuk input data. Looping akan terus berlanjut hingga data yang diinputkan. Jika terdapat inputan bracket "(", "{", atau "[", maka akan dipush kedalam stack.
+Bagian ini merupakan main program dimana program akan dijalankan. Terdapat pendeklarasian niali variabel top=-1 dan pendeklarasian variabel untuk input data. Looping akan terus berlanjut hingga data yang diinputkan. Jika terdapat inputan bracket "(", "{", atau "[", maka akan dipush kedalam stack.
 ```c
 while(chr[i]!='\0'){
 	if(chr[i]=='(' || chr[i]=='{' || chr[i]=='['){
