@@ -95,7 +95,7 @@ void push(char ch){
 }
 ```
 
-#### Fungsi POP
+#### Fungsi Pop
 Bagian ini untuk pop tanda bracket yang ada pada stack. yang dilakukan adalah hanya mengurangi nilai top tanpa mengambil nilai dari stcak yang di pop.
 ```c
 void pop(){
